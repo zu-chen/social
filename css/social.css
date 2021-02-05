@@ -1,0 +1,202 @@
+.morelargeTitle {
+  font-size: 58px;
+  color: #707070;
+}
+
+.largeTitle {
+  font-family: TCR;
+  color: #e7a473;
+  font-size: 33px;
+}
+
+.personalLargeTitle {
+  font-family: TC;
+  color: #707070;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.smallTitle {
+  font-family: TC;
+  color: #707070;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.checkboxSpan {
+  font-family: TC;
+  color: #707070;
+  font-size: 19px;
+}
+
+.moreSmallTitle {
+  font-family: TC;
+  color: #707070;
+  font-size: 12px;
+  font-weight: lighter;
+  position: absolute;
+}
+
+/* .fontUnderLine {
+  border-bottom: 2px solid #fff;
+  text-align: center;
+} */
+
+.largeBtn {
+  color: white;
+  width: 185px;
+  height: 50px;
+  border: unset;
+  border-radius: 200px;
+  font-size: small;
+  background-color: #e4955a;
+}
+
+.largeBtnImportant {
+  color: white;
+  width: 185px;
+  height: 50px;
+  border: unset;
+  border-radius: 200px;
+  font-size: small;
+  background-color: #51a9aa;
+}
+
+.hoverAllTag {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  width: 35px;
+  height: 170px;
+  background-color: #edd4c4;
+  border-radius: 10px;
+}
+
+.hoverAllTag i {
+  color: black;
+}
+
+.hoverAllTag p {
+  color: black;
+}
+
+.hoverAllTag {
+  display: none;
+}
+
+li:hover .hoverAllTag {
+  display: block;
+}
+
+.icon {
+  font-size: 30px;
+  -webkit-text-stroke: 1px white;
+  color: #707070;
+}
+
+.sociaCardIcon {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  /* -webkit-text-stroke: 1px white; */
+  color: #cf9c86;
+  margin: 10% auto;
+}
+
+#portfolioImg {
+  display: block;
+  margin: auto;
+}
+
+#shareImg {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+#portfolioLeft {
+  margin: auto;
+}
+
+#portfolioIcon {
+  margin-top: 30%;
+}
+
+.circleBackGround {
+  position: absolute;
+  right: 50px;
+  top: 110px;
+}
+
+.squareBackGroundRight {
+  position: absolute;
+  left: 13%;
+  top: 0px;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+.squareBackGroundLeft {
+  position: absolute;
+  left: 10;
+  bottom: 0;
+  z-index: -1;
+}
+
+.shareSquareBackGroundLeft {
+  position: absolute;
+  left: 8%;
+  top: -50px;
+  height: 40%;
+  /* transform: rotate(45deg); */
+}
+
+.shareSquareBackGroundRight {
+  position: absolute;
+  right: 8%;
+  bottom: -50px;
+  height: 40%;
+  /* transform: rotate(45deg); */
+}
+
+#myShareContent {
+  position: absolute;
+  text-align: center;
+}
+
+.allBox {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+.box1,
+.box2 {
+  width: 31vh;
+  height: 31vh;
+  float: left;
+  margin: 10px;
+  text-align: center;
+}
+
+.box1 {
+  background-color: #f5e4d7;
+}
+
+.box2 {
+  background-color: #e0dbd5;
+}
+
+.socialTitleImg {
+  text-align: center;
+  margin: 9% auto;
+  z-index: -1;
+}
+
+/* .socialCardMoreInner {
+  width: 18vh;
+  height: 18vh;
+} */
