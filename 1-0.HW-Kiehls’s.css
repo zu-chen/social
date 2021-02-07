@@ -1,6 +1,3 @@
-@media screen and (min-width: 768px) {
-}
-
 .bgc {
   background-color: black;
 }
@@ -77,13 +74,13 @@
 }
 
 .carousel-control-next-icon:after {
-  content: ">";
+  content: '>';
   font-size: 30px;
   color: black;
 }
 
 .carousel-control-prev-icon:after {
-  content: "<";
+  content: '<';
   font-size: 30px;
   color: black;
 }
